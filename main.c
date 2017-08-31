@@ -1,8 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+main() {
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char *argv[]) {
-	return 0;
+	printf("%i \n",plus(6, 7));
+	printf("%i", ninus(6, 7));
+	}
+	//cong hai so voi tham so dau vao
+	// la a, b la hai so nguyen.
+	int plus(int a, int b){
+		return a + b;
+}
+int ninus(int a, int b) {
+		return a- b;
 }
