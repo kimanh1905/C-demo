@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 main() {
-
-	printf("%i \n",plus(6, 7));
-	printf("%i", ninus(6, 7));
+	printf("%i \n",multiply(12,2));
+	printf("%i", devision(12, 2));
 	}
-	//cong hai so voi tham so dau vao
+	//nhan hai so voi tham so dau vao 
 	// la a, b la hai so nguyen.
-	int plus(int a, int b){
-		return a + b;
+	int multiply (int a,int b){
+		return a * b;
 }
-int ninus(int a, int b) {
-		return a- b;
-}
+	int devision ( int a, int b){
+		return a / b;
+		}
+	
